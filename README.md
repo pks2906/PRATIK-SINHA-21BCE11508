@@ -1,18 +1,19 @@
 # Turn-based Chess-like Game with WebSocket Communication
 
 ## Overview
-This project is a turn-based chess-like game that is played between two players on a 5x5 grid. The game is designed with a server-client architecture utilizing WebSockets for real-time communication. Players control a team of characters with unique movement abilities and compete to outmaneuver their opponent.
+This project is a chess like game for two players where each player takes a turn to move a set piece on a board of 5 X 5. The game is based on the server/client architecture with the primary focus on using WebSockets to transmit the data. Each character belongs to a team of players; each character can jump in different ways and the idea is to try and move the character beyond the opponents.
+
 
 ## Features
-- **Real-time Gameplay**: The game allows two players to compete in real-time using WebSocket communication.
+- **Real-time Gameplay**: The game is designed in such a manner that two players can play against each other in real-time with the help of WebSocket.
 - **Character Types**: Three character types are available: Pawn, Hero1, and Hero2, each with unique movement patterns and abilities.
-- **Dynamic Game State**: The server processes moves, updates the game state, and manages turn-taking.
-- **Interactive UI**: A web-based user interface displays the game board, characters, and controls, providing an engaging experience.
+- **Dynamic Game State**: Three character types are available: Pawn, Hero1, and Hero2; they all have different movement along with abilities.
+- **Interactive UI**: The game is developed to be played using a graphical user interface on the internet, which makes game board, characters, controls visually attractive.
 
 ## Game Rules
 
 ### Game Setup
-- The game is played between two players on a 5x5 grid.
+- It is a two player’s game which is played out on a 5×5 game board.
 - Each player controls a team of 5 characters, which can include Pawns, Hero1, and Hero2.
 - Players arrange their characters on their respective starting rows at the beginning of the game.
 
